@@ -1,6 +1,15 @@
 
-
 Place in `~/.config/nvim`
+
+Place this package manager in the shell (.config)
+[packer.nvim](https://github.com/wbthomason/packer.nvim)
+```sh
+cd ~/.config
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+---
 
 Old Settings:
 `init.vim`
