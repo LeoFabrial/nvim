@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
 -- Move Lines when highlighted
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -32,7 +32,8 @@ vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
 --
--- vim.keymap.set("i", "<C-c>", "<Esc>")
+vim.keymap.set("i", "<C-e>", "<Esc>")
+vim.keymap.set("v", "<C-e>", "<Esc>")
 
 -- Just dont
 vim.keymap.set("n", "Q", "<nop>")
